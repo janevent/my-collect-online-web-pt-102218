@@ -1,10 +1,10 @@
-my_collect(collection)
-  counter = 0 
-  new_collection = []
-  while counter < collection.length 
-    new_collection << yield(collection[counter])
-    counter+=1 
+my_collect(array)
+  i = 0 
+  new_array = []
+  while i < collection.length 
+    new_array << yield(array[i])
+    i+=1 
   end
-  new_collection
+  new_array
 end
 
